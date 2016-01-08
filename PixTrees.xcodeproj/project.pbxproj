@@ -14,6 +14,8 @@
 		951E7F5A1C3FCD9D0083000F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951E7F581C3FCD9D0083000F /* LaunchScreen.storyboard */; };
 		951E7F651C3FCD9D0083000F /* PixTreesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E7F641C3FCD9D0083000F /* PixTreesTests.swift */; };
 		951E7F701C3FCD9D0083000F /* PixTreesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E7F6F1C3FCD9D0083000F /* PixTreesUITests.swift */; };
+		951E7F7E1C3FCDC00083000F /* Forest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E7F7D1C3FCDC00083000F /* Forest.swift */; };
+		951E7F7F1C3FCDD20083000F /* Forest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951E7F7D1C3FCDC00083000F /* Forest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		951E7F6B1C3FCD9D0083000F /* PixTreesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixTreesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		951E7F6F1C3FCD9D0083000F /* PixTreesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixTreesUITests.swift; sourceTree = "<group>"; };
 		951E7F711C3FCD9D0083000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E7F7D1C3FCDC00083000F /* Forest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Forest.swift; path = ../Forest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		951E7F4E1C3FCD9D0083000F /* PixTrees */ = {
 			isa = PBXGroup;
 			children = (
+				951E7F7D1C3FCDC00083000F /* Forest.swift */,
 				951E7F4F1C3FCD9D0083000F /* AppDelegate.swift */,
 				951E7F511C3FCD9D0083000F /* ViewController.swift */,
 				951E7F531C3FCD9D0083000F /* Main.storyboard */,
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951E7F7E1C3FCDC00083000F /* Forest.swift in Sources */,
 				951E7F521C3FCD9D0083000F /* ViewController.swift in Sources */,
 				951E7F501C3FCD9D0083000F /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951E7F7F1C3FCDD20083000F /* Forest.swift in Sources */,
 				951E7F651C3FCD9D0083000F /* PixTreesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
